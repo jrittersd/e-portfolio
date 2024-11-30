@@ -1,22 +1,16 @@
-import './App.css'
+import { Routes, Route } from "react-router-dom";
+import Topnav from "./Topnav";
+import Home from "./pages/home";
 
-function App() {
+import "bootstrap/dist/css/bootstrap.min.css";
 
+export default function App() {
   return (
     <>
-      <h1>HELLO</h1>
-      <h1>HELLO</h1>
-      <h1>HELLO</h1>
-      <h1>HELLO</h1>
-      <h1>HELLO</h1>
-      <h1>HELLO</h1>
-      <h1>HELLO</h1>
-      <h1>HELLO</h1>
-      <h1>HELLO</h1>
-      <h1>HELLO</h1>
-      <h1>HELLO</h1>
+      <Topnav />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </>
-  )
+  );
 }
-
-export default App
