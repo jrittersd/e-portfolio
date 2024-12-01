@@ -29,9 +29,11 @@ export default function TextBoxContainer(props: blurbContainerProps) {
 
   if (props.downloadUrl) {
     const rowStyle = {
-      marginTop: ".5em" as const,
+      // marginTop: ".5em" as const,
       paddingRight: "1em" as const,
       minHeight: "max-content" as const,
+      // marginTop: "-1em",
+      // marginLeft: "-1em",
     };
 
     const divStyle = {
@@ -54,14 +56,14 @@ export default function TextBoxContainer(props: blurbContainerProps) {
                         width: "80%" as const,
                       }}
                     >
-                      <h3 className="display-5">{props.title}</h3>
+                      <h1 className="display-5">{props.title}</h1>
                     </div>
                   )}
                   <div
                     style={{
                       ...divStyle,
                       float: "right" as const,
-                      paddingTop: "0.25em" as const,
+                      paddingTop: "1em" as const,
                       paddingRight: "1.5em" as const,
                       width: "20%" as const,
                     }}
@@ -74,12 +76,16 @@ export default function TextBoxContainer(props: blurbContainerProps) {
                   </div>
                 </Row>
                 <Row>
-                  <TextBox
-                    text={props.text}
-                    background={
-                      props.innerBackground ? props.innerBackground : "inherit"
-                    }
-                  />
+                  <Container>
+                    <TextBox
+                      text={props.text}
+                      background={
+                        props.innerBackground
+                          ? props.innerBackground
+                          : "inherit"
+                      }
+                    />
+                  </Container>
                 </Row>
               </Container>
             </>

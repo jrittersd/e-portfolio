@@ -27,15 +27,17 @@ export default function Resume() {
   return (
     <>
       <PageHeader title="Resume" subtitle={appTitle} />
-      <Container fluid style={{ height: "100%" }}>
+      <Container fluid style={{ height: "100%" as const }}>
         <Row>
-          <TextBoxContainer
-            outerBackground={aboutMeColor}
-            title="About Me"
-            text={aboutMeContent}
-            downloadUrl="/e-portfolio/assets/usd.png"
-            btnText="DOWNLOAD RESUME"
-          />
+          <Col md={12} style={{ paddingBottom: "1em" as const }}>
+            <TextBoxContainer
+              outerBackground={aboutMeColor}
+              title="About Me"
+              text={aboutMeContent}
+              downloadUrl="/e-portfolio/assets/usd.png"
+              btnText="DOWNLOAD RESUME"
+            />
+          </Col>
         </Row>
         <Row>
           <Col md={3}>

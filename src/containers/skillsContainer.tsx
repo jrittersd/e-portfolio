@@ -21,7 +21,7 @@ export default function SkillsContainer(props: skillsTypes) {
   return (
     <>
       <div style={{ ...divStyle, boxShadow: "3px 3px lightgray" as const }}>
-        <h1 className="display-4" style={{ marginBottom: ".5em" as const }}>
+        <h1 className="display-5" style={{ marginBottom: ".5em" as const }}>
           Technical Skills
         </h1>
         {props.skills.map((skill) => {

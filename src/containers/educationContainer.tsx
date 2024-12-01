@@ -19,6 +19,7 @@ const divStyle = {
   paddingRight: "1em" as const,
   paddingLeft: "2em" as const,
   marginBottom: "1em" as const,
+  boxShadow: "3px 3px lightgray" as const,
 };
 export default function EducationContainer(props: eduExpTypes) {
   return (
@@ -27,10 +28,9 @@ export default function EducationContainer(props: eduExpTypes) {
         style={{
           ...divStyle,
           background: props.outerBackground,
-          boxShadow: "3px 3px lightgray" as const,
         }}
       >
-        <h1 className="display-4" style={{ marginBottom: ".5em" as const }}>
+        <h1 className="display-5" style={{ marginBottom: ".5em" as const }}>
           Education
         </h1>
         {props.schools.map((school) => {
