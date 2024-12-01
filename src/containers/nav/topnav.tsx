@@ -12,12 +12,12 @@ export default function Topnav() {
       data-bs-theme="dark"
     >
       <Container fluid>
-        <Navbar.Brand href="/" style={{ paddingLeft: "20px" }}>
+        <Navbar.Brand href="/#" style={{ paddingLeft: "20px" }}>
           E-Portfolio
         </Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#">Home</Nav.Link>
+            <Nav.Link href="/#">Home</Nav.Link>
             <Nav.Link href="#personalStatement">Personal Statement</Nav.Link>
             <Nav.Link href="#resume">Resume</Nav.Link>
             <NavDropdown
