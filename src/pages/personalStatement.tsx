@@ -19,7 +19,7 @@ export default function PersonalStatement() {
     <>
       <PageHeader
         title="Health Care Informatics E-Portfolio"
-        subtitle="James S. Ritter | Class of 2024"
+        subtitle="Personal Statement"
       />
       <Container fluid>
         <Col md={12}>

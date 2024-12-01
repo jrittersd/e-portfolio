@@ -17,6 +17,7 @@ let textBoxStyle: { [key: string]: string } = {
   flexDirection: "row" as const,
   flexWrap: "wrap" as const,
   // wrap words
+  fontSize: "1.4em" as const,
   whiteSpace: "pre-wrap" as const,
   wordWrap: "break-word" as const,
   overflowWrap: "break-word" as const,
@@ -25,6 +26,7 @@ let textBoxStyle: { [key: string]: string } = {
   maxWidth: "100%" as const,
   hyphens: "auto" as const,
   paddingBottom: "1em" as const,
+  paddingRight: "2em" as const,
 };
 
 export default function TextBox(props: textBoxProps) {
