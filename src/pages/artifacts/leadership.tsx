@@ -1,8 +1,7 @@
 export default function Leadership() {
   return (
     <>
-      <h1>Hello</h1>
-      <h2>I love captain</h2>
+      <h1>Data team lead or data team emotional support puppy? hard to say</h1>
     </>
   );
 }
