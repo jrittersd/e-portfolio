@@ -15,6 +15,7 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "gh-pages": "^6.2.0",
+    "jumbotron": "^0.2.9",
     "navbars": "^0.0.1-security",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.6",

@@ -1,0 +1,31 @@
+.sideBarDiv {
+  background: #d3d3d3d3;
+  padding: 2rem;
+  flex: 1;
+  width: 100%;
+}
+
+.sideBarBox {
+  background: antiquewhite;
+  padding: 10px;
+  border-radius: 5%;
+  margin-top: 20px;
+}
+
+.link {
+  color: black;
+  list-style: none;
+}
+.listElem {
+  margin-bottom: 6%;
+  margin-left: 3%;
+}
+.linkList {
+  list-style: none;
+  display: contents;
+}
+
+.sideBarSubTitle {
+  margin-bottom: 7%;
+  margin-top: 3%;
+}
