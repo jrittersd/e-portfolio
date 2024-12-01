@@ -10,12 +10,12 @@ type boxProps = {
 };
 
 const defaultStyle = {
-  borderRadius: "20px",
-  alignItems: "center",
-  justifyContent: "center",
-  display: "flex",
-  flexDirection: "row",
-  flexWrap: "wrap",
+  borderRadius: "20px" as const,
+  alignItems: "center" as const,
+  justifyContent: "center" as const,
+  display: "flex" as const,
+  flexDirection: "row" as const,
+  flexWrap: "wrap" as const,
 };
 
 export default function BoxComponent(props: boxProps) {

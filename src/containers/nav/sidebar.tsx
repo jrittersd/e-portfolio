@@ -1,7 +1,5 @@
-// import Row from "react-bootstrap/Row";
-import Container from "react-bootstrap/Container";
-
 import styles from "./sidebar.module.css";
+
 type SidebarProps = {
   title?: string;
   data: Array<{
@@ -17,6 +15,7 @@ type SidebarProps = {
 export default function Sidebar(props: SidebarProps) {
   const sidebarTitle = props.title ? props.title : "Quick Links";
   const sidebarOpen = props.isOpen ? props.isOpen : false;
+
   return (
     <>
       {sidebarOpen && (

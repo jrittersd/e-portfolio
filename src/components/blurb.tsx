@@ -7,14 +7,14 @@ type blurbProps = {
 };
 
 let blurbStyle = {
-  background: "#eee",
-  borderRadius: "20px",
-  overflowX: "hidden",
-  alignItems: "center",
-  justifyContent: "center",
-  display: "flex",
-  flexDirection: "row",
-  flexWrap: "wrap",
+  background: "#eee" as const,
+  borderRadius: "20px" as const,
+  overflowX: "hidden" as const,
+  alignItems: "center" as const,
+  justifyContent: "center" as const,
+  display: "flex" as const,
+  flexDirection: "row" as const,
+  flexWrap: "wrap" as const,
 };
 
 const blurbTextStyle = {

@@ -7,20 +7,20 @@ type pageHeaderProps = {
 };
 
 const headerStyle = {
-  backgroundImage: `url(${image})`,
-  borderRadius: "20px",
-  paddingLeft: "60px",
-  paddingRight: "60px",
-  paddingBottom: "60px",
-  paddingTop: "60px",
-  marginTop: "30px",
-  marginBottom: "30px",
+  backgroundImage: `url(${image})` as const,
+  borderRadius: "20px" as const,
+  paddingLeft: "60px" as const,
+  paddingRight: "60px" as const,
+  paddingBottom: "60px" as const,
+  paddingTop: "60px" as const,
+  marginTop: "30px" as const,
+  marginBottom: "30px" as const,
   textAlign: "center" as const,
-  position: "relative",
+  position: "relative" as const,
 };
 
 const textStyle = {
-  fontWeight: "bold",
+  fontWeight: "bold" as const,
 };
 export default function PageHeader(props: pageHeaderProps) {
   return (

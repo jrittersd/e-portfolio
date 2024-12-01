@@ -6,7 +6,7 @@ type imgProps = {
   };
 };
 
-let imgStyle = { borderRadius: "20px", overflowX: "hidden" };
+let imgStyle = { borderRadius: "20px" as const, overflowX: "hidden" as const };
 
 export default function ImageContainer(props: imgProps) {
   if (props.dimensions) {
