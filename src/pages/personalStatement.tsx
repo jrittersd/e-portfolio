@@ -25,7 +25,7 @@ export default function PersonalStatement() {
         <Col md={12}>
           <TextBoxContainer
             // background="#ededed"
-            outerBackground="#f2f0e9"
+            outerBackground="#fff5de"
             outerDimensions={textBoxDimensions}
             text={personalStatementContent}
             title="Reflections"
