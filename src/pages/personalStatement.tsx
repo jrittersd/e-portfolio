@@ -7,26 +7,23 @@ import PageHeader from "../components/pageHeader";
 import TextBoxContainer from "../containers/textBoxContainer";
 
 //Content
-import { personalStatementContent } from "../content/personalStatementContent";
+import {
+  pageTitle,
+  personalStatementContent,
+} from "../data/personalStatementContent";
 
-const textBoxDimensions = {
-  height: "100",
-  width: "100",
-};
+import { appTitle } from "../data/pageTitles";
+
+const boxColor = "#f2f0e8";
 
 export default function PersonalStatement() {
   return (
     <>
-      <PageHeader
-        title="Health Care Informatics E-Portfolio"
-        subtitle="Personal Statement"
-      />
+      <PageHeader title={pageTitle} subtitle={appTitle} />
       <Container fluid>
         <Col md={12}>
           <TextBoxContainer
-            // background="#ededed"
-            outerBackground="#fff5de"
-            outerDimensions={textBoxDimensions}
+            outerBackground={boxColor}
             text={personalStatementContent}
             title="Reflections"
           />

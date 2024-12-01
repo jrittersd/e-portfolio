@@ -8,6 +8,7 @@ type textBoxProps = {
 };
 
 let textBoxStyle: { [key: string]: string } = {
+  background: "" as const,
   borderRadius: "20px" as const,
   overflowX: "hidden" as const,
   overflowY: "hidden" as const,
@@ -25,12 +26,13 @@ let textBoxStyle: { [key: string]: string } = {
   lineHeight: "1.8" as const,
   maxWidth: "100%" as const,
   hyphens: "auto" as const,
+  paddingTop: "1em" as const,
   paddingBottom: "1em" as const,
   paddingRight: "2em" as const,
 };
 
 export default function TextBox(props: textBoxProps) {
-  textBoxStyle.background = props.background;
+  textBoxStyle = { ...textBoxStyle, background: props.background };
 
   if (props.dimensions) {
     textBoxStyle = { ...textBoxStyle, ...props.dimensions };

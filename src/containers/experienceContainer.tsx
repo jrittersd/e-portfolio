@@ -8,11 +8,13 @@ type jobExpTypes = {
     description: Array<string>;
     skills: string;
   }>;
+  outerBackground: string;
 };
 
+const innerBoxColor = "#efefef" as const;
+
 const divStyle = {
-  background: "#f2f0e8" as const,
-  // background: "#fff5de" as const,
+  background: "",
   borderRadius: "20px" as const,
   paddingTop: "1em" as const,
   paddingBottom: "1em" as const,
@@ -20,11 +22,18 @@ const divStyle = {
   paddingLeft: "2em" as const,
   marginBottom: "1em" as const,
 };
+
 export default function ExperienceContainer(props: jobExpTypes) {
   return (
     <>
-      <div style={{ ...divStyle, boxShadow: "3px 3px lightgray" as const }}>
-        <h1 className="display-4" style={{ marginBottom: ".5em" as const }}>
+      <div
+        style={{
+          ...divStyle,
+          background: props.outerBackground,
+          boxShadow: "3px 3px lightgray" as const,
+        }}
+      >
+        <h1 className="display-5" style={{ marginBottom: ".5em" as const }}>
           Experience
         </h1>
         {props.jobs.map((job) => {
@@ -33,8 +42,7 @@ export default function ExperienceContainer(props: jobExpTypes) {
               <div
                 style={{
                   ...divStyle,
-                  background: "#fff5de",
-                  // background: "#f0f2e1",
+                  background: innerBoxColor,
                 }}
               >
                 <h3 className="display-6">{job.position}</h3>

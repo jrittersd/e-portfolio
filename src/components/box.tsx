@@ -7,6 +7,7 @@ type boxProps = {
     width: string;
   };
   component?: React.ReactNode;
+  componentArr?: Array<React.ReactNode>;
   styleAdd?: { [key: string]: string };
 };
 
@@ -21,6 +22,7 @@ const defaultStyle = {
   paddingBottom: "1em" as const,
   paddingTop: "1em" as const,
   paddingLeft: "2em" as const,
+  marginBottom: "2em" as const,
 
   // marginBottom: "5px" as const,
 };
@@ -37,6 +39,10 @@ export default function BoxComponent(props: boxProps) {
   return (
     <div style={{ ...defaultStyle, ...propStyle }}>
       {props.component && props.component}
+      {props.componentArr &&
+        props.componentArr.map((comp) => {
+          return <>{comp}</>;
+        })}
     </div>
   );
 }

@@ -1,8 +1,25 @@
+//Bootstrap
+import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col";
+
+//Containers
+import PageHeader from "../../components/pageHeader";
+import ArtifactContainer from "../../containers/artifactContainer";
+//Content
+import { pageTitle, artifacts } from "../../data/systemsDesignContent";
+import { appTitle } from "../../data/pageTitles";
+
+const boxColor = "#f2f0e8";
+
 export default function SystemsDesign() {
   return (
     <>
-      <h1>Hello</h1>
-      <h2>Lemme design you a system</h2>
+      <PageHeader title={pageTitle} subtitle={appTitle} />
+      <Container fluid>
+        <Col md={12}>
+          <ArtifactContainer outerBackground={boxColor} artifact={artifacts} />
+        </Col>
+      </Container>
     </>
   );
 }

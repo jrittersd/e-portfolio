@@ -1,5 +1,4 @@
-export const aboutMeContent = `
-Highly driven data and software engineer with a proven track record of building scalable platforms and full-stack applications to streamline workflows and enable real-time insights. Currently pursuing a Master's in Computer Science and holding a Master's in Healthcare Informatics, combining technical expertise with industry-specific knowledge to deliver impactful solutions. Skilled in ETL pipelines, database architecture, data visualization, and streaming technologies, with experience in manufacturing and a passion for creating innovative software and data solutions for diverse industries, including healthcare.
+export const aboutMeContent = `A highly driven software and data engineer with a proven track record of building scalable platforms and full-stack applications to streamline workflows and enable real-time insights. Currently pursuing a Master's in Computer Science and holding a Master's in Healthcare Informatics, combining technical expertise with industry-specific knowledge to deliver impactful solutions. Skilled in ETL pipelines, database architecture, data visualization, and streaming technologies, with experience in manufacturing and a passion for creating innovative software and data solutions for diverse industries, including healthcare.
 `;
 
 export const experienceContent = [

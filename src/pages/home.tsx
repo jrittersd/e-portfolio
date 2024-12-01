@@ -8,6 +8,8 @@ import ImageContainer from "../components/imageContainer";
 import image from "../assets/headshot.jpg";
 import BlurbContainer from "../containers/blurbContainer";
 
+import { appTitle, secondaryTitle } from "../data/pageTitles";
+
 const imgDimensions = {
   height: "100%",
   width: "100%",
@@ -17,13 +19,12 @@ const blurbDimensions = {
   width: "100%",
 };
 
+const boxColor = "#f2f0e8";
+
 export default function Home() {
   return (
     <>
-      <PageHeader
-        title="Health Care Informatics E-Portfolio"
-        subtitle="James S. Ritter | Class of 2024"
-      />
+      <PageHeader title={appTitle} subtitle={secondaryTitle} />
       <Container fluid style={{ height: "100%" }}>
         <Row>
           <Col md={3}>
@@ -31,7 +32,7 @@ export default function Home() {
           </Col>
           <Col md={9}>
             <BlurbContainer
-              background="#dddddd"
+              background={boxColor}
               outerDimensions={blurbDimensions}
               text="Currently looking for a meaningful quote"
             />

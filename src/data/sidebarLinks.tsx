@@ -32,7 +32,7 @@ export const sideBarLinks = [
         href: "#systemsDesignMgmt",
       },
       {
-        page: "Data & Knowledge Mangement",
+        page: "Data & Knowledge Management",
         href: "#dataMgmt",
       },
       {

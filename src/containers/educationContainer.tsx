@@ -6,12 +6,13 @@ type eduExpTypes = {
     end: string;
     classes: string;
   }>;
+  outerBackground: string;
 };
 
+const innerBoxColor = "#efefef" as const;
+
 const divStyle = {
-  //
-  background: "#e8f0e0" as const,
-  // background: "#fff5de" as const,
+  background: "",
   borderRadius: "20px" as const,
   paddingTop: "1em" as const,
   paddingBottom: "1em" as const,
@@ -22,7 +23,13 @@ const divStyle = {
 export default function EducationContainer(props: eduExpTypes) {
   return (
     <>
-      <div style={{ ...divStyle, boxShadow: "3px 3px lightgray" as const }}>
+      <div
+        style={{
+          ...divStyle,
+          background: props.outerBackground,
+          boxShadow: "3px 3px lightgray" as const,
+        }}
+      >
         <h1 className="display-4" style={{ marginBottom: ".5em" as const }}>
           Education
         </h1>
@@ -32,8 +39,7 @@ export default function EducationContainer(props: eduExpTypes) {
               <div
                 style={{
                   ...divStyle,
-                  background: "#fff5de",
-                  // background: "#f0f2e1",
+                  background: innerBoxColor,
                 }}
               >
                 <h3 className="display-6">{school.degree}</h3>

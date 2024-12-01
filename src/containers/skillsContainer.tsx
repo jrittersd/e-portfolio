@@ -15,6 +15,8 @@ const divStyle = {
   paddingLeft: "2em" as const,
   marginBottom: "1em" as const,
 };
+
+const innerBoxColor = "#efefef" as const;
 export default function SkillsContainer(props: skillsTypes) {
   return (
     <>
@@ -28,8 +30,7 @@ export default function SkillsContainer(props: skillsTypes) {
               <div
                 style={{
                   ...divStyle,
-                  background: "#fff5de",
-                  // background: "#f0f2e1",
+                  background: innerBoxColor,
                 }}
               >
                 <h3
