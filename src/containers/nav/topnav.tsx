@@ -19,7 +19,7 @@ export default function Topnav() {
           <Nav className="ms-auto">
             <Nav.Link href="#">Home</Nav.Link>
             <Nav.Link href="#personalStatement">Personal Statement</Nav.Link>
-            <Nav.Link href="#personalStatement">Resume</Nav.Link>
+            <Nav.Link href="#resume">Resume</Nav.Link>
             <NavDropdown
               title="Program Outcomes"
               id="basic-nav-dropdown"
