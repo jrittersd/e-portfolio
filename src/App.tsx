@@ -9,28 +9,31 @@ import { sideBarLinks } from "./data/sidebarLinks";
 
 import PageRoutes from "./pages/router";
 
+import Copyright from "./components/copyright";
+
 export default function App() {
   return (
     <>
       <Topnav />
       <Container
-        className="col-md-12 col-lg-12"
         fluid
-        style={{ minHeight: "100vh", padding: 0, margin: 0 }}
-        //  flexDirection: "column", display: "flex" }}
+        style={{
+          minHeight: "100vh" as const,
+          padding: 0,
+          margin: 0,
+        }}
       >
         <Row
           style={{
-            minHeight: "100vh",
+            minHeight: "100vh" as const,
           }}
         >
           <Col
             md={2}
             lg={2}
             style={{
-              display: "flex",
-              flexDirection: "column",
-              // alignItems: "stretch",
+              display: "flex" as const,
+              flexDirection: "column" as const,
             }}
           >
             <Sidebar data={sideBarLinks} isOpen={true} />
@@ -39,13 +42,30 @@ export default function App() {
             md={10}
             lg={10}
             style={{
-              display: "flex",
-              flexDirection: "column",
-              // alignItems: "stretch",
+              display: "flex" as const,
+              flexDirection: "column" as const,
             }}
           >
-            <Container fluid style={{ flex: 1 }}>
+            <Container
+              fluid
+              style={{
+                flex: 1,
+                paddingBottom: "2em" as const,
+                overflowY: "visible" as const,
+              }}
+            >
               <PageRoutes />
+            </Container>
+
+            <Container
+              fluid
+              style={{
+                flex: 1,
+                alignContent: "center" as const,
+                justifyContent: "center" as const,
+              }}
+            >
+              <Copyright />
             </Container>
           </Col>
         </Row>

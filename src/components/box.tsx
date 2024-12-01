@@ -7,6 +7,7 @@ type boxProps = {
     width: string;
   };
   component?: React.ReactNode;
+  styleAdd?: { [key: string]: string };
 };
 
 const defaultStyle = {
@@ -16,14 +17,23 @@ const defaultStyle = {
   display: "flex" as const,
   flexDirection: "row" as const,
   flexWrap: "wrap" as const,
+  boxShadow: "3px 3px lightgray" as const,
+  paddingBottom: "1em" as const,
+  paddingTop: "1em" as const,
+  paddingLeft: "2em" as const,
+
+  // marginBottom: "5px" as const,
 };
 
 export default function BoxComponent(props: boxProps) {
-  const propStyle = {
+  let propStyle = {
     background: props.background,
     height: props.dimensions.height,
     width: props.dimensions.width,
   };
+  if (props.styleAdd) {
+    propStyle = { ...propStyle, ...props.styleAdd };
+  }
   return (
     <div style={{ ...defaultStyle, ...propStyle }}>
       {props.component && props.component}

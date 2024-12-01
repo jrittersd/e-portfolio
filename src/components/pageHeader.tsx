@@ -17,6 +17,7 @@ const headerStyle = {
   marginBottom: "30px" as const,
   textAlign: "center" as const,
   position: "relative" as const,
+  boxShadow: "3px 3px lightgray" as const,
 };
 
 const textStyle = {
