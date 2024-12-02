@@ -10,9 +10,10 @@ export const artifacts = [
     link: "/e-portfolio/assets/usd.png",
   },
   {
-    name: "Artifact 3",
-    text: `    The Before/After screening workflow diagram contained within my EHR Project Proposal exemplifies the value that healthcare technology development brings in improving healthcare outcomes for individuals struggling with mental health issues. As detailed in the diagram, a relatively simple algorithm can help identify potential individuals struggling with depression or even initiate the conversation when it might not otherwise happen. Clinical decision support software must improve patient outcomes while reducing clinical burden.`,
-    link: "/e-portfolio/assets/Systems_HCIN600.pdf.png",
+    name: "Preventative Care & Screening for Depression - System Design",
+    text: `    My Preventative Care & Screening for Depression Project Proposal satisfies the MSHCI Program Objective of System Design & Management by implementing value-based care in a healthcare organization through an actionable project plan with specific deliverables, documentation, and stakeholder involvement. 
+        This project was completed for HCIN 600: Population Health Analytics and proposes the development of registries and clinical decision support tools to facilitate screening for depression in primary care settings. The goal of these interventions is to improve access to preventative mental health services, especially in marginalized communities. This artifact merges the project proposal document and presentation detailing the recommendations for implementing the proposed interventions, including the inception of a registry to track patient screenings, new clinical decision support tools, and adequate training to accommodate changes to the workflow. Additionally, the project plan performs a rudimentary cost-benefit analysis to justify the new intervention at the organizational level. `,
+    link: "/e-portfolio/assets/Systems_PreventativeCare.pdf.png",
   },
 ];
 

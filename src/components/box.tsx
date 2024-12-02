@@ -23,8 +23,6 @@ const defaultStyle = {
   paddingTop: "1em" as const,
   paddingLeft: "2em" as const,
   marginBottom: "2em" as const,
-
-  // marginBottom: "5px" as const,
 };
 
 export default function BoxComponent(props: boxProps) {

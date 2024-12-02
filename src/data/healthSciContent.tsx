@@ -5,9 +5,9 @@ export const artifacts = [
     link: "/e-portfolio/assets/usd.png",
   },
   {
-    name: "Preventative Care & Screening for Depression",
-    text: `    The Preventative Care & Screening for Depression Project Proposal satisfies the MSHCI Program Objective of Health Science Knowledge & Skills by exemplifying my understanding of value-based care in the context of population health, which often aims to design specific measures to improve patient outcomes in a community.
-        This project proposes the development of registries and clinical decision support tools to facilitate screening for depression in primary care settings with the goal of improving preventative mental health services, especially in marginalized communities. While the project plan is available in full under the Systems Design & Management Program Outcome, this artifact details the Situation/Background/Assessment/Recommendation, Justifications, Interventions, and Cost Analysis to demonstrate the value of this intervention.  `,
+    name: "Preventative Care & Screening for Depression - Project Overview",
+    text: `    My Preventative Care & Screening for Depression Project Overview satisfies the MSHCI Program Objective of Health Science Knowledge & Skills by exemplifying my understanding of value-based care in the context of population health, which often aims to design specific measures to improve patient outcomes in a community. This project was completed for HCIN 600: Population Health Analytics and proposes the development of registries and clinical decision support tools to facilitate screening for depression in primary care settings. 
+        The goal of these interventions is to improve access to preventative mental health services, especially in marginalized communities. This artifact details the Introduction and Overview sections of the proposal, which delve into the Situation/Background/Assessment/Recommendation, Justifications, Interventions, and Cost Analysis for this project. This project helped me to solidify my understanding of population health analytics and value-based care as a framework for improving patient outcomes in various communities. `,
     link: "/e-portfolio/assets/HealthSci_PreventativeCare_Overview.pdf",
   },
   {
