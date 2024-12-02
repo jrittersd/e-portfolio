@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 import PageHeader from "../../components/pageHeader";
 import ArtifactContainer from "../../containers/artifactContainer";
 //Content
-import { pageTitle, artifacts } from "../../data/itContent";
+import { pageTitle, artifacts } from "../../data/artifacts/itContent";
 import { appTitle } from "../../data/pageTitles";
 
 const boxColor = "#f2f0e8";
