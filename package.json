@@ -15,8 +15,8 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "gh-pages": "^6.2.0",
-    "jumbotron": "^0.2.9",
     "navbars": "^0.0.1-security",
+    "node": "^23.4.0",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.6",
     "react-dom": "^18.3.1",
@@ -33,6 +33,6 @@
     "globals": "^15.12.0",
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.15.0",
-    "vite": "^6.0.1"
+    "vite": "^6.0.3"
   }
 }

@@ -14,7 +14,8 @@ export const artifacts = [
   },
   {
     name: "Machine Learning Applications in Health Care",
-    text: `    Rewriting this portion, will resubmit when completed. Download still available.`,
+    text: `    This document, my course project for HCIN 615: Machine Learning Applications for Health Care, demonstrates my knowledge of the Python programming language and common data analytics libraries. This project aims to produce meaningful analytics and predict the stages of chronic kidney disease based on glomerular filtration rate using off-the-shelf machine learning functionality. This project reflects my understanding of functional programming to extract, wrangle, and visualize data using open-source Python libraries like Pandas and Seaborn. Furthermore, this project reflects my knowledge of Supervised machine learning, including model selection, data preparation, and performance evaluation using the extensive SciKit-Learn library.
+        These procedures, all implemented using the Python programming language, are a practical application of Information Technology in the healthcare industry. The Python programming language is integral to modern data processing and knowledge extraction, from visualizations to analytics to machine learning and predictive modeling. Furthermore, the functional approach to programming, where inputs are transformed into outputs through a series of function declarations, is incredibly valuable in Information Technology as it enables a modular and predictable coding structure that enhances code reusability, reduces unpredictable behavior, and simplifies testing and debugging. From data engineering to data analytics, this paradigm is essential in maintaining reliable, scalable, and maintainable Information Technology systems. `,
     link: "/e-portfolio/assets/it/IT_ML_615.pdf",
   },
 ];
