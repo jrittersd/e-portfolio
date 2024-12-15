@@ -1,7 +1,8 @@
 export const artifacts = [
   {
     name: "COVID-19 Infection Rates in Minority Communities",
-    text: `    Reflection in dev.`,
+    text: `    This artifact, titled "COVID-19 Infection Rates in Minority Communities," was my final project for HCIN 540: Introduction to Health Care Information Management. It demonstrates my understanding of data management tools related to data analytics and knowledge management. Using publically available data manipulated with Microsoft Excel, the objective of this project was to identify disparities between COVID-19 morbidity and mortality rates in minority communities.
+        This project involved generating a variety of visualizations that reflected the disproportionately high rates of infection in minority groups in California. Doing so required integrating various data sources into MS Excel, including COVID-19 morbidity and mortality data and census data, performing numerous filterings, calculations, and aggregations, then generating visualizations that accurately convey the vast disparities in infection rates, generally and throughout the pandemic. While a variety of more sophisticated tools enable data wrangling and visualization generation, this project reflects a strong understanding of spreadsheet mechanics and chart building using ubiquitous data management tools like MS Excel. These tools are integral to Data and Knowledge Management, enabling efficient data wrangling, exploratory analysis, and data visualization. `,
     link: "/e-portfolio/assets/data/Data_CovidInfections_540.pdf",
   },
   {
