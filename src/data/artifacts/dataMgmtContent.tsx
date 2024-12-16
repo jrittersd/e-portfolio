@@ -13,7 +13,8 @@ export const artifacts = [
   },
   {
     name: "Biostatistics: High Coffee Consumption & Brain Volume",
-    text: `    Reflection in dev.`,
+    text: `    This artifact, titled "High Coffee Consumption, Brain Volume and Risk of Dementia and Stroke," was my course project for HCIN 549: Biostatistics and demonstrates my understanding of statistical methodology to evaluate a problem. In this document, I analyze and assess a secondary analysis of clinical data that aims to relate caffeine consumption and degenerative neurological disorders. I evaluated both the data collected and the statistical methods used to analyze and interpret that data. This process allowed me to assess the strengths and weaknesses of the study itself to gauge the validity of the results. 
+        This process of evaluation using various forms of data analytics and statistics is integral to any application of knowledge management. By critically analyzing the study's methodology and data, I demonstrated the ability to identify potential biases, limitations, and areas for further research, ensuring that the conclusions drawn are both reliable and actionable. This process is integral to academic research and valuable in the field of healthcare informatics, as it enables evidence-based results and informed decision-making to improve patient outcomes and optimize healthcare processes. `,
     link: "/e-portfolio/assets/data/Data_Biostats_549.pdf",
   },
 ];
