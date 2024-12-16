@@ -9,7 +9,10 @@ export const artifacts = [
   },
   {
     name: "FMEA: AI in Healthcare White Paper",
-    text: `    This is my second artifact.`,
+    text: `    This artifact, titled "AI in Healthcare: The Risk of Insufficient Governance - FMEA," was a significant portion of my white paper and course project for HCIN 559: Management of Health Care System Quality Outcomes and Patient Safety. In this project, I proposed a governance board to maintain quality and oversight for AI-based technologies in the health informatics industry. This document exemplifies my understanding of Failure Mode Effects Analysis (FMEA) as it relates to system design and its important role in maintaining quality in healthcare delivery. 
+        The flowchart presented in this artifact outlines the FMEA process flow from the initial stages of AI tool development through the governance board's approval process, provider uptake, implementation, and evaluation. From hardware updates to user training and error reporting, the FMEA methodology enabled me to identify and propose solutions for potential sources of medical or technological errors that could impact patient safety. This comprehensive approach highlights the interplay between technological systems and organizational management, ensuring that the integration of new tools is safe and effective. This structured approach is essential in healthcare informatics, where complex technological systems play an integral role in patient care delivery. This project highlights my understanding of human and technological systems integration. It provides evidence of my knowledge of the FMEA methodology and its role in maintaining quality and safety in patient care settings. 
+
+`,
     link: "/e-portfolio/assets/systems/Systems_FMEA_559.pdf",
   },
   {
