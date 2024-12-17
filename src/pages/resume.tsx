@@ -6,20 +6,18 @@ import Col from "react-bootstrap/Col";
 import PageHeader from "../components/pageHeader";
 // Containers
 // import AboutMe from "../containers/aboutMe";
-import TextBoxContainer from "../containers/textBoxContainer";
 import ExperienceContainer from "../containers/experienceContainer";
 import EducationContainer from "../containers/educationContainer";
 import SkillsContainer from "../containers/skillsContainer";
 // Data
 import {
-  aboutMeContent,
   experienceContent,
   educationContent,
   skillsContent,
+  resumeUrl,
 } from "../data/resumeContent";
 import { appTitle } from "../data/pageTitles";
 
-const aboutMeColor = "#e2e7ef" as const;
 const experienceColor = "#f2f0e8" as const;
 const educationColor = "#e8f0e0" as const;
 // Output
@@ -29,17 +27,6 @@ export default function Resume() {
       <PageHeader title="Resume" subtitle={appTitle} />
       <Container fluid style={{ height: "100%" as const }}>
         <Row>
-          <Col md={12} style={{ paddingBottom: "1em" as const }}>
-            <TextBoxContainer
-              outerBackground={aboutMeColor}
-              title="About Me"
-              text={aboutMeContent}
-              downloadUrl="/e-portfolio/assets/usd.png"
-              btnText="DOWNLOAD RESUME"
-            />
-          </Col>
-        </Row>
-        <Row>
           <Col md={3}>
             <SkillsContainer skills={skillsContent} />
           </Col>
@@ -47,6 +34,7 @@ export default function Resume() {
             <ExperienceContainer
               jobs={experienceContent}
               outerBackground={experienceColor}
+              downloadUrl={resumeUrl}
             />
             <EducationContainer
               schools={educationContent}

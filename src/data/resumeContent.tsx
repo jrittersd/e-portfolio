@@ -1,6 +1,4 @@
-export const aboutMeContent = `A highly driven software and data engineer with a proven track record of building scalable platforms and full-stack applications to streamline workflows and enable real-time insights. Currently pursuing a Master's in Computer Science and a Master's in Health Care Informatics, combining technical expertise with industry-specific knowledge to deliver impactful solutions. Skilled in ETL pipelines, database architecture, data visualization, and streaming technologies, with experience in manufacturing and a passion for creating innovative software and data solutions for diverse industries, including healthcare.
-`;
-
+export const resumeUrl = "/e-portfolio/assets/JSRITTER_Resume_2024.pdf";
 export const experienceContent = [
   {
     position: "Data Engineer",
@@ -26,7 +24,7 @@ export const experienceContent = [
     start: "August 2022",
     end: "August 2023",
     description: [
-      `Spearheaded a comprehensive IT infrastructure redesign to elimiate bottlenecks and single points of failure, improving network uptime by over 300%.`,
+      `Spearheaded a comprehensive IT infrastructure redesign to eliminate bottlenecks and single points of failure, improving network uptime by over 300%.`,
       `Developed custom applications to streamline dental patient check-in and check-out processes, improving clinical workflows and reducing cognitive burden for staff.`,
       `Developed a meticulous payment auditing system using MS Excel macros which uncovered over $45,000 in outstanding payments`,
       `Designed and maintained Tableau dashboards to monitor quarterly clinician performance and inform strategic decisions.`,
@@ -42,21 +40,21 @@ export const educationContent = [
     university: "Johns Hopkins University",
     start: "2023",
     end: "In Progress",
-    classes: `Object-Oriented Programming, Data Structures, Discrete Mathematics, Operating Systems, Foundations of Software Engineering, Foundations of Computer Architecture, Foundations of Algorithms`,
+    classes: `Object-Oriented Programming, Data Structures, Discrete Mathematics, Operating Systems, Software Engineering, Computer Architecture, Algorithm Design, Data Science & Cloud Computing, Enterprise & Web Computing, Artifical Intelligence, Deep Neural Networks, Large-Scale Database Systems`,
   },
   {
     degree: "M.S. Health Care Informatics",
     university: "University of San Diego",
     start: "2020",
     end: "2024 (Exp.)",
-    classes: `Database Design & Knowledge Management (SQL), Machine Learning Applications for Health Care, Population Health Analytics, Research Fundamentals & Biostatistics, Health Care Analytics`,
+    classes: `Database Design & Knowledge Management (SQL), Machine Learning Applications for Health Care, Population Health Analytics, Research Fundamentals & Biostatistics, Health Care Analytics, Systems Analysis and Design for Health Care Informatics, anagement of Health Care System Quality Outcomes and Patient Safety, Electronic Medical Record Systems`,
   },
   {
     degree: "B.S. Pharmaceutical Sciences",
     university: "University of California, Irvine",
     start: "2014",
     end: "2019",
-    classes: `Object-Oriented Programming, Data Structures, Discrete Mathematics, Operating Systems, Foundations of Software Engineering, Foundations of Computer Architecture, Foundations of Algorithms`,
+    classes: `Chemistry, Organic Chemistry, Physical Chemistry, Medicinal Chemistry, Biochemistry, Genetics, Cell Biology, Microbiology, Anatomy & Physiology, Pharmacology, Pharmacotherapy, Biopharmacy & Nanomedicine, Physics, Calculus, Statistics, Undergraduate Research`,
   },
 ];
 
