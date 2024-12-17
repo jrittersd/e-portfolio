@@ -14,9 +14,11 @@ export const artifacts = [
     link: "/e-portfolio/assets/quality/Quality_AIGovernance_559.pdf",
   },
   {
-    name: "Artifact 3",
-    text: `    This is my third artifact.`,
-    link: "/e-portfolio/assets/quality/_____.pdf",
+    name: "Speech Recognition Project - Post Implementation Evaluation",
+    text: `    The artifact, titled "Speech Recognition Project Plan: Post-Implementation Evaluation," was part of a larger project plan completed with a group of my peers in HCIN 542: Systems Analysis and Design for Health Care Informatics. This project demonstrates my ability to integrate quality measurements with systems evaluations in a post-implementation framework that assesses the project's execution alongside various patient safety, data quality, and security metrics. 
+        This project proposes a Natural Language Processing (NLP) powered speech recognition system to assist clinical documentation at a hypothetical community health center. In this post-implementation evaluation, my group assessed the general reception of the new tool, justified its implementation through a cost-benefit analysis, identified key network and hardware upgrade requirements, and evaluated the phased implementation approach. Particularly, this analysis focused on the system's outputs, evaluating the tool's usefulness alongside the intended improvement in quality of care. This analysis also considered data quality and integrity concerns, guaranteeing personal health information and patient confidentiality through HIPAA-compliant data collection mechanisms.
+            This artifact illustrates my ability to integrate quality measurement and systems evaluation in a comprehensive post-implementation framework that ensures a system delivers the intended benefits while meeting patient safety and data integrity standards. While more general in its scope, this artifact aligns closely with the Quality and Regulatory program outcome, assessing the validity of human-technology integrations in systems designed to uphold data integrity, optimize performance, and enhance overall healthcare delivery.  `,
+    link: "/e-portfolio/assets/quality/Quality_PostEval_542.pdf",
   },
 ];
 
